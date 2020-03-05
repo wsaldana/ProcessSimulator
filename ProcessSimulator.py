@@ -86,12 +86,11 @@ desv = (suma/NUMERO_PROCESOS)**0.5
 print('Desviacion estandar: ', desv)
 
 #Graficar
-plt.plot(muestra, row) # crear la grafica
+plt.plot(row, muestra) # crear la grafica
 plt.title("Tiempo medio por unidad de procesos") #Titulo de la grafica
 plt.xlabel("Numero de procesos") #nombre del eje X
 plt.ylabel("Tiempo") #Nombre del eje Y
 plt.show() #Mostrar gráfica
-
 
 
 
